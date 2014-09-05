@@ -1,0 +1,9 @@
+sys-kernel/debian-sources binary
+x11-terms/rxvt-unicode 256-color font-styles mousewheel pixbuf
+net-libs/webkit-gtk egl geoloc gstreamer jit opengl webgl
+sys-libs/zlib minizip
+media-sound/deadbeef lastfm m3u aac ffmpeg oss notify musepack curl
+x11-libs/libxcb xkb
+media-sound/cmus aac mp4 musepack zsh-completion
+net-misc/networkmanager wifi
+sys-boot/grub grub_platforms_pc
