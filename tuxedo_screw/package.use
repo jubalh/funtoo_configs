@@ -1,0 +1,61 @@
+x11-libs/cairo xcb
+x11-terms/rxvt-unicode 256-color font-styles fading-colors pixbuf xft mousewheel
+sys-firmware/iwl3160-ucode bluetooth
+x11-misc/nitrogen xinerama
+net-im/pidgin gtk
+media-video/mpv mpeg123 dvdnav quvi vaapi
+x11-libs/libxcb xkb
+app-crypt/gcr gtk
+app-crypt/pinentry gtk
+net-im/pidgin zeroconf
+sys-block/parted device-mapper
+sys-block/gparted btrfs dmraid fat hfs jfs ntfs reiser4 reiserfs xfs
+app-editors/gvim gtk
+www-client/vimb gtk3
+www-client/firefox bindist custom-optimization system-cairo system-icu system-jpeg wifi
+dev-db/sqlite secure-delete
+sys-firmware/iwl3160-ucode bluetooth
+dev-libs/openobex usb
+sys-kernel/gentoo-sources symlink
+media-gfx/gimp svg xpm
+
+#gnucash
+app-office/gnucash hbci sqlite ofx quotes
+sys-libs/gwenhywfar gtk
+x11-libs/goffice gnome
+net-libs/aqbanking ofx gtk
+dev-dotnet/mono-addins gtk
+
+dev-qt/qt-creator autotools cmake debug doc examples git valgrind
+dev-qt/qthelp doc
+dev-libs/botan threads
+dev-vcs/git gtk highlight subversion
+dev-libs/libpcre pcre16
+media-plugins/gst-plugins-meta ffmpeg
+
+#emulation
+app-emulation/qemu gtk
+x11-libs/libdrm video_cards_vmware
+media-libs/mesa xa
+app-emulation/virt-manager gtk
+net-misc/spice-gtk gtk3
+
+dev-qt/qtgui gtkstyle
+
+sys-auth/polkit-qt -qt4 qt5
+sys-libs/glibc debug
+#net-irc/quassel qt5 crypt phonon
+dev-db/sqlite -secure-delete
+www-client/dwb gtk3
+media-gfx/gimp aalib exif jpeg jpeg2k lcms pdf png svg tif xpm
+app-text/poppler cairo
+media-gfx/digikam gphoto2 thumbnails video
+dev-vcs/subversion perl -dso
+media-plugins/alsa-plugins pulseaudio
+media-sound/pulseaudio dbus
+
+net-wireless/wpa_supplicant qt4
+media-libs/mesa gles2
+media-libs/cogl gles2
+media-libs/gst-plugins-base theora
+net-misc/networkmanager bluetooth
