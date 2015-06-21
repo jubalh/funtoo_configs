@@ -1,0 +1,34 @@
+
+=== [1m[92mEnabled Profiles[0m: ===
+
+[1m        arch[0m: [96mx86-64bit[0m
+[1m       build[0m: [96mcurrent[0m
+[1m     subarch[0m: (not set)
+[1m      flavor[0m: [96mdesktop[0m
+[1m     mix-ins[0m: [96mlxqt[0m
+[1m     mix-ins[0m: [96mxfce[0m
+[1m     mix-ins[0m: [96mgnome[0m
+
+
+=== [1m[92mAll inherited flavors from desktop flavor[0m: ===
+
+      [96m               workstation[0m (from desktop flavor)
+      [96m                      core[0m (from workstation flavor)
+      [96m                   minimal[0m (from core flavor)
+
+=== [1m[92mAll inherited mix-ins from desktop flavor[0m: ===
+
+      [96m                         X[0m (from workstation flavor)
+      [96m                     audio[0m (from workstation flavor)
+      [96m                       dvd[0m (from workstation flavor)
+      [96m                     media[0m (from workstation flavor)
+      [96mmediadevice-audio-consumer[0m (from media mix-in)
+      [96m          mediadevice-base[0m (from mediadevice-audio-consumer mix-in)
+      [96mmediadevice-video-consumer[0m (from media mix-in)
+      [96m          mediadevice-base[0m (from mediadevice-video-consumer mix-in)
+      [96m  mediaformat-audio-common[0m (from media mix-in)
+      [96m    mediaformat-gfx-common[0m (from media mix-in)
+      [96m  mediaformat-video-common[0m (from media mix-in)
+      [96m            console-extras[0m (from workstation flavor)
+      [96m                     print[0m (from desktop flavor)
+

@@ -1,32 +1,35 @@
+media-sound/deadbeef cover cover-network lastfm musepack playlist-browser wma curl gtk3"
+media-plugins/alsa-plugins pulseaudio
+media-gfx/digikam gphoto2
+
+x11-libs/pango introspection
+x11-libs/gtk+ introspection
+dev-libs/atk introspection
+x11-libs/gdk-pixbuf introspection
+net-libs/libsoup introspection
+dev-libs/libgit2 threads
+dev-libs/libgee introspection
+net-libs/webkit-gtk introspection
+sys-auth/polkit introspection
+app-i18n/ibus introspection
+net-libs/gssdp introspection
+
+app-text/poppler cairo
+
+gnome-extra/nm-applet bluetooth
+
+media-gfx/gimp xpm
+dev-lang/spidermonkey -icu
+
+media-libs/libcanberra gtk3
+games-strategy/0ad sound
+
+dev-lang/php pdo cgi ftp imap mysql pcntl postgres qdpm sqlite xmlreader xmlwriter xpm xslt zip curl
+
+dev-lang/go  vim-syntax zsh-completion
+gnome-base/gvfs http
+media-video/mpv dvdnav xinerama sdl
 x11-libs/cairo xcb
-x11-terms/rxvt-unicode 256-color font-styles fading-colors pixbuf xft mousewheel
-sys-firmware/iwl3160-ucode bluetooth
-x11-misc/nitrogen xinerama
-net-im/pidgin gtk
-media-video/mpv mpeg123 dvdnav quvi vaapi
-x11-libs/libxcb xkb
-app-crypt/gcr gtk
-app-crypt/pinentry gtk
-net-im/pidgin zeroconf
-sys-block/parted device-mapper
-sys-block/gparted btrfs dmraid fat hfs jfs ntfs reiser4 reiserfs xfs
-app-editors/gvim gtk
-www-client/vimb gtk3
-www-client/firefox bindist custom-optimization system-cairo system-icu system-jpeg system-sqlite wifi
-dev-db/sqlite secure-delete
-sys-firmware/iwl3160-ucode bluetooth
-dev-libs/openobex usb
-sys-kernel/gentoo-sources symlink
-media-gfx/gimp svg xpm
-
-#gnucash
-app-office/gnucash hbci sqlite ofx quotes
-sys-libs/gwenhywfar gtk
-x11-libs/goffice gnome
-net-libs/aqbanking ofx gtk
-dev-dotnet/mono-addins gtk
-
-dev-qt/qt-creator autotools cmake debug doc examples git valgrind
-dev-vcs/git gtk highlight 
-dev-libs/libpcre pcre16
-media-plugins/gst-plugins-meta ffmpeg
+x11-terms/rxvt-unicode 256-color pixbuf
+net-im/profanity otr
+net-misc/spice-gtk usbredir

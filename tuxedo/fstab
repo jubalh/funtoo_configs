@@ -7,14 +7,11 @@
 #
 # See the manpage fstab(5) for more information.
 #
-# <fs>			<mountpoint>	<type>		<opts>		<dump/pass>
+# <fs>			<mountpoint>		<type>		<opts>		<dump/pass>
 
-/dev/sdb1			/boot			vfat		noauto,noatime					1 2
-/dev/mapper/funtoo-SWAP		none			swap		sw						0 0
-/dev/sdb2			/			ext4		noatime						0 1
-/dev/mapper/funtoo-UPORTAGE	/usr/portage		ext4		noatime						0 1
-/dev/mapper/funtoo-USRC		/usr/src		ext4		noatime						0 1
-/dev/mapper/funtoo-HOME		/home			ext4		noatime						0 1
-/dev/sda1			/home/michael/hd	ext4		auto,users,rw	0 1
-tmpfs				/var/tmp/portage	tmpfs		uid=portage,gid=portage,mode=0775,size=6G 	0 0
-#/dev/cdrom			/mnt/cdrom		auto		noauto,ro					0 0
+/dev/sdb1		/boot			ext2		noauto,noatime	1 2
+/dev/sdb2		none			swap		sw		0 0
+/dev/sdb3		/			btrfs		noatime		0 1
+/dev/sdb5		/home			ext4		noatime		0 1
+/dev/sda1		/home/michael/hd	ext4		noatime		0 1
+tmpfs			/var/tmp/portage	tmpfs		uid=portage,gid=portage,mode=775,size=20,size=6G,noatime 0 0
